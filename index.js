@@ -7,15 +7,15 @@ app.get("/", (req, res) => {
   res.send("Hello this is Elon Musk");
 });
 
-app.get("/wahyu", (req, res) => {
+app.post("/wahyu", (req, res) => {
   res.send("Ini Tesla IX");
 });
 
-app.get("/wahyu", (req, res) => {
+app.put("/wahyu", (req, res) => {
   res.send("Ini Tesla X");
 });
 
-app.get("/wahyu", (req, res) => {
+app.delete("/wahyu", (req, res) => {
   res.send("Ini Tesla XI");
 });
 
